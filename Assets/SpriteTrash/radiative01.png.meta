@@ -1,0 +1,3406 @@
+fileFormatVersion: 2
+guid: ea67afc2e1238a74f94da15b57dfef31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7262996636466976947
+    second: radiative01_0
+  - first:
+      213: 444320050586439839
+    second: radiative01_1
+  - first:
+      213: 608081493732943602
+    second: radiative01_2
+  - first:
+      213: -2194571657242638674
+    second: radiative01_3
+  - first:
+      213: -6721382647029302252
+    second: radiative01_4
+  - first:
+      213: -7796672044000162034
+    second: radiative01_5
+  - first:
+      213: -4949679185717678476
+    second: radiative01_6
+  - first:
+      213: 7316126811409094442
+    second: radiative01_7
+  - first:
+      213: -4804873608090026650
+    second: radiative01_8
+  - first:
+      213: 7319295208064842422
+    second: radiative01_9
+  - first:
+      213: -6335960373991876947
+    second: radiative01_10
+  - first:
+      213: 6987313159423230839
+    second: radiative01_11
+  - first:
+      213: 4103320188388319382
+    second: radiative01_12
+  - first:
+      213: -2790495315167170089
+    second: radiative01_13
+  - first:
+      213: -7139068864772178388
+    second: radiative01_14
+  - first:
+      213: 8853041058294986752
+    second: radiative01_15
+  - first:
+      213: 5913281211460493073
+    second: radiative01_16
+  - first:
+      213: 2777695693551247562
+    second: radiative01_17
+  - first:
+      213: 4097909083845885169
+    second: radiative01_18
+  - first:
+      213: 5214210454018560515
+    second: radiative01_19
+  - first:
+      213: -8695301549676361646
+    second: radiative01_20
+  - first:
+      213: -5729020168728355119
+    second: radiative01_21
+  - first:
+      213: -3955949398936501073
+    second: radiative01_22
+  - first:
+      213: -7506625789988147661
+    second: radiative01_23
+  - first:
+      213: -5883619431440782854
+    second: radiative01_24
+  - first:
+      213: 6703799237786377666
+    second: radiative01_25
+  - first:
+      213: 7132236007073907126
+    second: radiative01_26
+  - first:
+      213: 8849338828489236293
+    second: radiative01_27
+  - first:
+      213: -6174914699225245725
+    second: radiative01_28
+  - first:
+      213: -1477718876786037367
+    second: radiative01_29
+  - first:
+      213: 8462927903563885322
+    second: radiative01_30
+  - first:
+      213: 3042436518831061329
+    second: radiative01_31
+  - first:
+      213: 1771985506469606259
+    second: radiative01_32
+  - first:
+      213: 6907913723087406266
+    second: radiative01_33
+  - first:
+      213: 8460613608633535414
+    second: radiative01_34
+  - first:
+      213: 4980398575779012369
+    second: radiative01_35
+  - first:
+      213: 5787901043094956156
+    second: radiative01_36
+  - first:
+      213: 1416090720163018499
+    second: radiative01_37
+  - first:
+      213: -7181539290799652478
+    second: radiative01_38
+  - first:
+      213: -7706704380878125768
+    second: radiative01_39
+  - first:
+      213: -4980777416917141956
+    second: radiative01_40
+  - first:
+      213: -8184572192049798957
+    second: radiative01_41
+  - first:
+      213: 648624669750026433
+    second: radiative01_42
+  - first:
+      213: 8307982245049242390
+    second: radiative01_43
+  - first:
+      213: -8425488020952182178
+    second: radiative01_44
+  - first:
+      213: -6117905063960678511
+    second: radiative01_45
+  - first:
+      213: -6300324887097804078
+    second: radiative01_46
+  - first:
+      213: 7681794438398336480
+    second: radiative01_47
+  - first:
+      213: 6906646015425491608
+    second: radiative01_48
+  - first:
+      213: 6283705190891784600
+    second: radiative01_49
+  - first:
+      213: 6230290363271126742
+    second: radiative01_50
+  - first:
+      213: 3504477209360053096
+    second: radiative01_51
+  - first:
+      213: -3318212889278665185
+    second: radiative01_52
+  - first:
+      213: -8654010587298200099
+    second: radiative01_53
+  - first:
+      213: -323022584520922598
+    second: radiative01_54
+  - first:
+      213: -5071653537093098615
+    second: radiative01_55
+  - first:
+      213: -226030107388309046
+    second: radiative01_56
+  - first:
+      213: -2138242855289006102
+    second: radiative01_57
+  - first:
+      213: 4404642586390835706
+    second: radiative01_58
+  - first:
+      213: 1120587911867567712
+    second: radiative01_59
+  - first:
+      213: 6779752176708277030
+    second: radiative01_60
+  - first:
+      213: 136270647942987061
+    second: radiative01_61
+  - first:
+      213: 8467003061526537619
+    second: radiative01_62
+  - first:
+      213: -3505571365461832186
+    second: radiative01_63
+  - first:
+      213: 8040524547739111651
+    second: radiative01_64
+  - first:
+      213: 5962670818836609533
+    second: radiative01_65
+  - first:
+      213: -4249029551655930532
+    second: radiative01_66
+  - first:
+      213: 6628005304865838125
+    second: radiative01_67
+  - first:
+      213: -6288123953795584248
+    second: radiative01_68
+  - first:
+      213: -3848325382564143133
+    second: radiative01_69
+  - first:
+      213: -2466380459649339033
+    second: radiative01_70
+  - first:
+      213: -572714953082328008
+    second: radiative01_71
+  - first:
+      213: 8448631249065434599
+    second: radiative01_72
+  - first:
+      213: -4209187159354164366
+    second: radiative01_73
+  - first:
+      213: 1684820265591244685
+    second: radiative01_74
+  - first:
+      213: 1611957587576116234
+    second: radiative01_75
+  - first:
+      213: -8770087843196825858
+    second: radiative01_76
+  - first:
+      213: 5255535862056269681
+    second: radiative01_77
+  - first:
+      213: 5423552101376558464
+    second: radiative01_78
+  - first:
+      213: 3458213948372427314
+    second: radiative01_79
+  - first:
+      213: -6938665060940201144
+    second: radiative01_80
+  - first:
+      213: 8453287187340787634
+    second: radiative01_81
+  - first:
+      213: 1845255453048289755
+    second: radiative01_82
+  - first:
+      213: 3142329654358915505
+    second: radiative01_83
+  - first:
+      213: -9055577059355667054
+    second: radiative01_84
+  - first:
+      213: -1366185406651097273
+    second: radiative01_85
+  - first:
+      213: 2928966709404463123
+    second: radiative01_86
+  - first:
+      213: -2171337497939711663
+    second: radiative01_87
+  - first:
+      213: 7646275266178983417
+    second: radiative01_88
+  - first:
+      213: 6233062110512586772
+    second: radiative01_89
+  - first:
+      213: 6110084655262581230
+    second: radiative01_90
+  - first:
+      213: -2861868121267121433
+    second: radiative01_91
+  - first:
+      213: 4261156107834039665
+    second: radiative01_92
+  - first:
+      213: 5774470073150702559
+    second: radiative01_93
+  - first:
+      213: 7845131312760254166
+    second: radiative01_94
+  - first:
+      213: 2607908424021804755
+    second: radiative01_95
+  - first:
+      213: -8327599883169916261
+    second: radiative01_96
+  - first:
+      213: -7326763579467735834
+    second: radiative01_97
+  - first:
+      213: 2154815324553540621
+    second: radiative01_98
+  - first:
+      213: 7883796877382475476
+    second: radiative01_99
+  - first:
+      213: -5551823876971445963
+    second: radiative01_100
+  - first:
+      213: -8969085285612928312
+    second: radiative01_101
+  - first:
+      213: 5759172508210207987
+    second: radiative01_102
+  - first:
+      213: 5716467000359179610
+    second: radiative01_103
+  - first:
+      213: 8732850393560515164
+    second: radiative01_104
+  - first:
+      213: 2023680035930041950
+    second: radiative01_105
+  - first:
+      213: 5295879337115768925
+    second: radiative01_106
+  - first:
+      213: -6705460719434762311
+    second: radiative01_107
+  - first:
+      213: 8954136348771911261
+    second: radiative01_108
+  - first:
+      213: -4740683835739045290
+    second: radiative01_109
+  - first:
+      213: 8068676331059988720
+    second: radiative01_110
+  - first:
+      213: 793515068206009875
+    second: radiative01_111
+  - first:
+      213: -2809991029498304102
+    second: radiative01_112
+  - first:
+      213: -3080681200506853010
+    second: radiative01_113
+  - first:
+      213: -2362918594920663346
+    second: radiative01_114
+  - first:
+      213: 2239102658481911213
+    second: radiative01_115
+  - first:
+      213: -5469095459025777722
+    second: radiative01_116
+  - first:
+      213: 1971459991449870476
+    second: radiative01_117
+  - first:
+      213: 5740465962880328679
+    second: radiative01_118
+  - first:
+      213: -6081411039054897532
+    second: radiative01_119
+  - first:
+      213: -6812425277191405905
+    second: radiative01_120
+  - first:
+      213: -2822388218968995093
+    second: radiative01_121
+  - first:
+      213: 9136041322640216794
+    second: radiative01_122
+  - first:
+      213: 3516881552680698871
+    second: radiative01_123
+  - first:
+      213: 8430081289853870236
+    second: radiative01_124
+  - first:
+      213: -8016365701531140581
+    second: radiative01_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: radiative01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 882
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4767864a07a43b90800000000000000
+      internalID: -7262996636466976947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 687
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90d9cd5bba8a2600800000000000000
+      internalID: 444320050586439839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 695
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6e07495e6507800800000000000000
+      internalID: 608081493732943602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 659
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea689ef74b05b81e0800000000000000
+      internalID: -2194571657242638674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 671
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cf75c081ad8b2a0800000000000000
+      internalID: -6721382647029302252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 656
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fc623a518acc390800000000000000
+      internalID: -7796672044000162034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_6
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 655
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e272f41053f4bb0800000000000000
+      internalID: -4949679185717678476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 654
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2710cd829a188560800000000000000
+      internalID: 7316126811409094442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 661
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66df42729e8a15db0800000000000000
+      internalID: -4804873608090026650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 634
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba7ce2663c539560800000000000000
+      internalID: 7319295208064842422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 642
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da65345fb952218a0800000000000000
+      internalID: -6335960373991876947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 651
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77385d15c4ce7f060800000000000000
+      internalID: 6987313159423230839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 622
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690239498fbe1f830800000000000000
+      internalID: 4103320188388319382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 632
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1b118ab4b2649d0800000000000000
+      internalID: -2790495315167170089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 637
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ef33021beecec90800000000000000
+      internalID: -7139068864772178388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 638
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008fe95efe15cda70800000000000000
+      internalID: 8853041058294986752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 641
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f18129ee1301250800000000000000
+      internalID: 5913281211460493073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 633
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac02144348b5c8620800000000000000
+      internalID: 2777695693551247562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 617
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fcfa70a992bed830800000000000000
+      internalID: 4097909083845885169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 618
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30297e728c89c5840800000000000000
+      internalID: 5214210454018560515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 626
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25803ac6f45145780800000000000000
+      internalID: -8695301549676361646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_21
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 611
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ded5eb928e6e70b0800000000000000
+      internalID: -5729020168728355119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 609
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa448fe2bf4a919c0800000000000000
+      internalID: -3955949398936501073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_23
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 582
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e68f5ad9b13d790800000000000000
+      internalID: -7506625789988147661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 602
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9e263cc4f295ea0800000000000000
+      internalID: -5883619431440782854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 593
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd9ac573eda80d50800000000000000
+      internalID: 6703799237786377666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_26
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 577
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b104e73cdacaf260800000000000000
+      internalID: 7132236007073907126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 574
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f1c2957ca2fca70800000000000000
+      internalID: 8849338828489236293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 577
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e757521ccb4e4aa0800000000000000
+      internalID: -6174914699225245725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 569
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d6747c2861e7be0800000000000000
+      internalID: -1477718876786037367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 559
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0baaabf61c527570800000000000000
+      internalID: 8462927903563885322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 562
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159f994f4e7e83a20800000000000000
+      internalID: 3042436518831061329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_32
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 454
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373f2440e6b579810800000000000000
+      internalID: 1771985506469606259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 387
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4cba37ee6dddf50800000000000000
+      internalID: 6907913723087406266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 381
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb007430432a6570800000000000000
+      internalID: 8460613608633535414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_35
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 375
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f5b2d0e1eed1540800000000000000
+      internalID: 4980398575779012369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 304
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78a9c44551c25050800000000000000
+      internalID: 5787901043094956156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 351
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3073b09d107f6a310800000000000000
+      internalID: 1416090720163018499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 355
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281406f701c065c90800000000000000
+      internalID: -7181539290799652478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_39
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 353
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83500dc82394c0590800000000000000
+      internalID: -7706704380878125768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_40
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 315
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36bd5f1459b0eab0800000000000000
+      internalID: -4980777416917141956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_41
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 319
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0e45e74fe8a6e80800000000000000
+      internalID: -8184572192049798957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_42
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 313
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0610953b0600900800000000000000
+      internalID: 648624669750026433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_43
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 297
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613996495d1eb4370800000000000000
+      internalID: 8307982245049242390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_44
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 307
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5216dbf847a21b80800000000000000
+      internalID: -8425488020952182178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_45
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 288
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f6f0522c5d81ba0800000000000000
+      internalID: -6117905063960678511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_46
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 292
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da7bfe45efb098a0800000000000000
+      internalID: -6300324887097804078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_47
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 276
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eddd4287573b9a60800000000000000
+      internalID: 7681794438398336480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_48
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892bdc245f559df50800000000000000
+      internalID: 6906646015425491608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 282
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89902602494343750800000000000000
+      internalID: 6283705190891784600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_50
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 276
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de905e6310767650800000000000000
+      internalID: 6230290363271126742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_51
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 283
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863bb53547762a030800000000000000
+      internalID: 3504477209360053096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_52
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 269
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e2c6535f653f1d0800000000000000
+      internalID: -3318212889278665185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_53
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 275
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd50f95c837c6e780800000000000000
+      internalID: -8654010587298200099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 263
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aa33bbba4648bf0800000000000000
+      internalID: -323022584520922598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_55
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 256
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98366b19afddd99b0800000000000000
+      internalID: -5071653537093098615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_56
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1939c90dafcdcf0800000000000000
+      internalID: -226030107388309046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_57
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 254
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae75bf6b37f6352e0800000000000000
+      internalID: -2138242855289006102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_58
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 247
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af13264781f602d30800000000000000
+      internalID: 4404642586390835706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 228
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e867ac4c02d8f00800000000000000
+      internalID: 1120587911867567712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_60
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 244
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623d0ed1fa4861e50800000000000000
+      internalID: 6779752176708277030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_61
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 242
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d34fbae6124e100800000000000000
+      internalID: 136270647942987061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_62
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 239
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3952f62ac66d08570800000000000000
+      internalID: 8467003061526537619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_63
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 235
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ecdda9a65b95fc0800000000000000
+      internalID: -3505571365461832186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_64
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e05cc3c97ea59f60800000000000000
+      internalID: 8040524547739111651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_65
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 231
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9f755a489afb250800000000000000
+      internalID: 5962670818836609533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_66
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 219
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c553965922a6805c0800000000000000
+      internalID: -4249029551655930532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_67
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 233
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24dee545b76bfb50800000000000000
+      internalID: 6628005304865838125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_68
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 218
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fa36674981cb8a0800000000000000
+      internalID: -6288123953795584248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_69
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 206
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef15203470089ac0800000000000000
+      internalID: -3848325382564143133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_70
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761f2a51a08a5cdd0800000000000000
+      internalID: -2466380459649339033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_71
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 80
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c29f7d8ce4d08f0800000000000000
+      internalID: -572714953082328008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_72
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 80
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed5fc6bb519f3570800000000000000
+      internalID: 8448631249065434599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_73
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 77
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b3f8d6496f595c0800000000000000
+      internalID: -4209187159354164366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 83
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8702f0ea1fa16710800000000000000
+      internalID: 1684820265591244685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_75
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 69
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a045878a2e2de5610800000000000000
+      internalID: 1611957587576116234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_76
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 81
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe084192936a4680800000000000000
+      internalID: -8770087843196825858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_77
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 68
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177b032850a6fe840800000000000000
+      internalID: 5255535862056269681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_78
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0858f57a6e3544b40800000000000000
+      internalID: 5423552101376558464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2322a0e734b0eff20800000000000000
+      internalID: 3458213948372427314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_80
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 47
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843ce33c3e8e4bf90800000000000000
+      internalID: -6938665060940201144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_81
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bffec1d8eb105570800000000000000
+      internalID: 8453287187340787634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_82
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9bbc6de0aab9910800000000000000
+      internalID: 1845255453048289755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_83
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 49
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b93d3ffb2ccb9b20800000000000000
+      internalID: 3142329654358915505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_84
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 52
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295ddec94a0245280800000000000000
+      internalID: -9055577059355667054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_85
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f1d3b6c955a0de0800000000000000
+      internalID: -1366185406651097273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_86
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 40
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3107ff034b7c5a820800000000000000
+      internalID: 2928966709404463123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_87
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 30
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15961d3cc0cddd1e0800000000000000
+      internalID: -2171337497939711663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_88
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f52477c7d60d1a60800000000000000
+      internalID: 7646275266178983417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_89
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410ac0027f8408650800000000000000
+      internalID: 6233062110512586772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_90
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 37
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1cd701f916bc450800000000000000
+      internalID: 6110084655262581230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_91
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2dbd54b1a9848d0800000000000000
+      internalID: -2861868121267121433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_92
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 42
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d1feb47eaa22b30800000000000000
+      internalID: 4261156107834039665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_93
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 25
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38544efe9032050800000000000000
+      internalID: 5774470073150702559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_94
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 34
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de6e591d518fdc60800000000000000
+      internalID: 7845131312760254166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_95
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d68194f4e6213420800000000000000
+      internalID: 2607908424021804755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_96
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 34
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a921c170c6e6c80800000000000000
+      internalID: -8327599883169916261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_97
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec5e84e75b125a90800000000000000
+      internalID: -7326763579467735834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_98
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 29
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04f498fe1177ed10800000000000000
+      internalID: 2154815324553540621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_99
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de57b56d7fd86d60800000000000000
+      internalID: 7883796877382475476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_100
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 18
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531c5954995f3f2b0800000000000000
+      internalID: -5551823876971445963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_101
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 10
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2cbd6f378678380800000000000000
+      internalID: -8969085285612928312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_102
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc901002e0bcef40800000000000000
+      internalID: 5759172508210207987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_103
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55d6ae1378f45f40800000000000000
+      internalID: 5716467000359179610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_104
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 22
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520ec01a21513970800000000000000
+      internalID: 8732850393560515164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_105
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ee8a0554e851c10800000000000000
+      internalID: 2023680035930041950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_106
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58dd16c23ebe7940800000000000000
+      internalID: 5295879337115768925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_107
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 13
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b771c2b00b61f2a0800000000000000
+      internalID: -6705460719434762311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_108
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 10
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5686f2719b734c70800000000000000
+      internalID: 8954136348771911261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_109
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 12
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652865a2b25b53eb0800000000000000
+      internalID: -4740683835739045290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_110
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8ce689f52b9ff60800000000000000
+      internalID: 8068676331059988720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_111
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 9
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ec65410c1230b00800000000000000
+      internalID: 793515068206009875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_112
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 7
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9928b0fb08e009d0800000000000000
+      internalID: -2809991029498304102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_113
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a09135c83f35d0800000000000000
+      internalID: -3080681200506853010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_114
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6b694ae0a353fd0800000000000000
+      internalID: -2362918594920663346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_115
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 4
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5727e2104e21f10800000000000000
+      internalID: 2239102658481911213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_116
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb011218aed914b0800000000000000
+      internalID: -5469095459025777722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_117
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80a34fba680c5b10800000000000000
+      internalID: 1971459991449870476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_118
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 0
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3e3b2016b3aaf40800000000000000
+      internalID: 5740465962880328679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_119
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e5ef371ec7a9ba0800000000000000
+      internalID: -6081411039054897532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_120
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae3d1edd476571a0800000000000000
+      internalID: -6812425277191405905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_121
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea0b165edcd4d8d0800000000000000
+      internalID: -2822388218968995093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_122
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad292499d2db9ce70800000000000000
+      internalID: 9136041322640216794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_123
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f348a093297ec030800000000000000
+      internalID: 3516881552680698871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_124
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c902865c44aadf470800000000000000
+      internalID: 8430081289853870236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radiative01_125
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e7c92fdd520c090800000000000000
+      internalID: -8016365701531140581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      radiative01_0: -7262996636466976947
+      radiative01_1: 444320050586439839
+      radiative01_10: -6335960373991876947
+      radiative01_100: -5551823876971445963
+      radiative01_101: -8969085285612928312
+      radiative01_102: 5759172508210207987
+      radiative01_103: 5716467000359179610
+      radiative01_104: 8732850393560515164
+      radiative01_105: 2023680035930041950
+      radiative01_106: 5295879337115768925
+      radiative01_107: -6705460719434762311
+      radiative01_108: 8954136348771911261
+      radiative01_109: -4740683835739045290
+      radiative01_11: 6987313159423230839
+      radiative01_110: 8068676331059988720
+      radiative01_111: 793515068206009875
+      radiative01_112: -2809991029498304102
+      radiative01_113: -3080681200506853010
+      radiative01_114: -2362918594920663346
+      radiative01_115: 2239102658481911213
+      radiative01_116: -5469095459025777722
+      radiative01_117: 1971459991449870476
+      radiative01_118: 5740465962880328679
+      radiative01_119: -6081411039054897532
+      radiative01_12: 4103320188388319382
+      radiative01_120: -6812425277191405905
+      radiative01_121: -2822388218968995093
+      radiative01_122: 9136041322640216794
+      radiative01_123: 3516881552680698871
+      radiative01_124: 8430081289853870236
+      radiative01_125: -8016365701531140581
+      radiative01_13: -2790495315167170089
+      radiative01_14: -7139068864772178388
+      radiative01_15: 8853041058294986752
+      radiative01_16: 5913281211460493073
+      radiative01_17: 2777695693551247562
+      radiative01_18: 4097909083845885169
+      radiative01_19: 5214210454018560515
+      radiative01_2: 608081493732943602
+      radiative01_20: -8695301549676361646
+      radiative01_21: -5729020168728355119
+      radiative01_22: -3955949398936501073
+      radiative01_23: -7506625789988147661
+      radiative01_24: -5883619431440782854
+      radiative01_25: 6703799237786377666
+      radiative01_26: 7132236007073907126
+      radiative01_27: 8849338828489236293
+      radiative01_28: -6174914699225245725
+      radiative01_29: -1477718876786037367
+      radiative01_3: -2194571657242638674
+      radiative01_30: 8462927903563885322
+      radiative01_31: 3042436518831061329
+      radiative01_32: 1771985506469606259
+      radiative01_33: 6907913723087406266
+      radiative01_34: 8460613608633535414
+      radiative01_35: 4980398575779012369
+      radiative01_36: 5787901043094956156
+      radiative01_37: 1416090720163018499
+      radiative01_38: -7181539290799652478
+      radiative01_39: -7706704380878125768
+      radiative01_4: -6721382647029302252
+      radiative01_40: -4980777416917141956
+      radiative01_41: -8184572192049798957
+      radiative01_42: 648624669750026433
+      radiative01_43: 8307982245049242390
+      radiative01_44: -8425488020952182178
+      radiative01_45: -6117905063960678511
+      radiative01_46: -6300324887097804078
+      radiative01_47: 7681794438398336480
+      radiative01_48: 6906646015425491608
+      radiative01_49: 6283705190891784600
+      radiative01_5: -7796672044000162034
+      radiative01_50: 6230290363271126742
+      radiative01_51: 3504477209360053096
+      radiative01_52: -3318212889278665185
+      radiative01_53: -8654010587298200099
+      radiative01_54: -323022584520922598
+      radiative01_55: -5071653537093098615
+      radiative01_56: -226030107388309046
+      radiative01_57: -2138242855289006102
+      radiative01_58: 4404642586390835706
+      radiative01_59: 1120587911867567712
+      radiative01_6: -4949679185717678476
+      radiative01_60: 6779752176708277030
+      radiative01_61: 136270647942987061
+      radiative01_62: 8467003061526537619
+      radiative01_63: -3505571365461832186
+      radiative01_64: 8040524547739111651
+      radiative01_65: 5962670818836609533
+      radiative01_66: -4249029551655930532
+      radiative01_67: 6628005304865838125
+      radiative01_68: -6288123953795584248
+      radiative01_69: -3848325382564143133
+      radiative01_7: 7316126811409094442
+      radiative01_70: -2466380459649339033
+      radiative01_71: -572714953082328008
+      radiative01_72: 8448631249065434599
+      radiative01_73: -4209187159354164366
+      radiative01_74: 1684820265591244685
+      radiative01_75: 1611957587576116234
+      radiative01_76: -8770087843196825858
+      radiative01_77: 5255535862056269681
+      radiative01_78: 5423552101376558464
+      radiative01_79: 3458213948372427314
+      radiative01_8: -4804873608090026650
+      radiative01_80: -6938665060940201144
+      radiative01_81: 8453287187340787634
+      radiative01_82: 1845255453048289755
+      radiative01_83: 3142329654358915505
+      radiative01_84: -9055577059355667054
+      radiative01_85: -1366185406651097273
+      radiative01_86: 2928966709404463123
+      radiative01_87: -2171337497939711663
+      radiative01_88: 7646275266178983417
+      radiative01_89: 6233062110512586772
+      radiative01_9: 7319295208064842422
+      radiative01_90: 6110084655262581230
+      radiative01_91: -2861868121267121433
+      radiative01_92: 4261156107834039665
+      radiative01_93: 5774470073150702559
+      radiative01_94: 7845131312760254166
+      radiative01_95: 2607908424021804755
+      radiative01_96: -8327599883169916261
+      radiative01_97: -7326763579467735834
+      radiative01_98: 2154815324553540621
+      radiative01_99: 7883796877382475476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
