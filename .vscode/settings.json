@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "BioAdventure.sln"
+    "dotnet.defaultSolution": "BioAdventure1.0.sln"
 }

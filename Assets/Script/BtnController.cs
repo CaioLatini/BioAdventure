@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using BioAdventure.Assets.Script.SceneScript;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BioAdventure.Assets.Script
 {
@@ -172,13 +173,14 @@ namespace BioAdventure.Assets.Script
             infoPages[infoPageIndex].SetActive(true);
             infoPageIndex++;
         }
-        public void Auth()
+        public async void Auth()
         {
             PlayClick();
             var (ok, user) = authService.Authenticate();
             if (ok)
             {
-                Debug.Log($"{user.UserName} - {user.Password} - {user.Level1} - {user.Level2} - {user.Level3}");
+                Debug.Log($"{user.UserName} - {user.Level1} - {user.Level2} - {user.Level3}");
+                await Task.Delay(500);
                 Global.StartSession(user);
                 Global.SetVolumeEffects(user.Effects);
                 Global.SetVolumeMusic(user.Music);

@@ -11,7 +11,6 @@ namespace BioAdventure.Assets.Script.SceneScript
         [Header("Dependences")]
         [SerializeField] private BtnController _btnController;
         [SerializeField] private TMP_InputField _usernameInput;
-        [SerializeField] private TMP_InputField _passwordInput;
         [SerializeField] private TMP_Text _statusText;
         [SerializeField] private TMP_InputField _directoryInput;
 
@@ -54,7 +53,6 @@ namespace BioAdventure.Assets.Script.SceneScript
         public (bool success, UserSaveData user) Authenticate()
         {
             var name = _usernameInput.text.Trim();
-            var pass = _passwordInput.text.Trim();
 
             if (name.Length < 3)
             {
@@ -72,23 +70,20 @@ namespace BioAdventure.Assets.Script.SceneScript
 
             if (existing != null)
             {
-                if (existing.Password == pass)
-                    return (true, existing);
-
-                _statusText.text = "Incorrect password";
-                return (false, null);
+                _statusText.text = "User found";
+                return (true, existing);
             }
 
             var newUser = new UserSaveData
             {
                 UserName = name,
-                Password = pass,
                 Directory = _saveFilePath,
                 Effects = 1f,
                 Music = 1f
             };
 
             users.Add(newUser);
+            _statusText.text = "Create user";
             SaveAllUsers(users, _saveFilePath);
             return (true, newUser);
         }

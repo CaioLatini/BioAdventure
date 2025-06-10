@@ -7,7 +7,6 @@ namespace BioAdventure.Assets.Script
     public class UserSaveData
     {
         public string UserName;
-        public string Password;
         public string Directory;
         public float Music;
         public float Effects;
