@@ -9,4 +9,7 @@ Movimentação, a mecânica de boost e a alteração de seu tipo com base no inp
 public interface IBinController
 {
     void ChangeBinType(char charType);
+    void HandleMovement();
+    void HandleBoost();
+    void BoostRoutine();
 }
