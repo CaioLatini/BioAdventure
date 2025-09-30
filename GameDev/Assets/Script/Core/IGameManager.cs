@@ -14,7 +14,6 @@ public interface IGameManager
     // --- PROPRIEDADES ---
     UserSaveData CurrentUser { get; }
     int CurrentLevel { get; }
-    int LevelPerformace { get; }
     string CurrentScore { get; }
     float VolumeEffects { get; }
     float VolumeMusic { get; }
@@ -22,10 +21,9 @@ public interface IGameManager
     // --- MÉTODOS ---
     void StartSession(UserSaveData user);
     void ChangeLevel(bool operacao);
-    void SetLevelPerformace(int performace);
+    bool UnlockedLevel(int levelIndex);
     void SetCurrentScore(int score);
+    void SaveProgress();
     void SetVolumeEffects(float effects);
     void SetVolumeMusic(float music);
-    bool IsLevelUnlocked(int levelIndex);
-    void SaveProgress();
 }

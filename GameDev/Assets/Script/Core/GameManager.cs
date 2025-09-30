@@ -1,4 +1,5 @@
 using UnityEngine;
+using BioAdventure.Assets.Script.Data;
 using System.Collections.Generic;
 
 // GameManager.cs
@@ -33,9 +34,8 @@ namespace BioAdventure.Assets.Script.Core
         }
 
         //Global variables
-        public UserSave CurrentUser { get; private set; }
+        public UserSaveData CurrentUser { get; private set; }
         public int CurrentLevel { get; private set; }
-        public int LevelPerformace { get; private set; }
         public int CurrentScore { get; private set; }
         public float VolumeEffects { get; private set; }
         public float VolumeMusic { get; private set; }
@@ -49,42 +49,55 @@ namespace BioAdventure.Assets.Script.Core
             if (user == null) return;
 
             CurrentUser = user;
-            VolumeEffects = user.Effects;
-            VolumeMusic = user.Music;
+            SetVolumeEffects(user.Effects);
+            SetVolumeMusic(user.Music);
         }
 
         public void ChengeLevel(bool operacao)
         {
-
+            if (operacao && UnlockedLevel(CurrentLevel) && CurrentLevel < _rengScene[1])
+            {
+                CurrentLevel++;
+            }
+            if (!operacao && CurrentLevel > _rengScene[0])
+            {
+                CurrentLevel--;
+            }
         }
 
         public bool UnlockedLevel(int indexLevel)
         {
+            if (indexLevel == 0) return true;
 
+            return CurrentUser.levelScore[indexLevel] > 0;
         }
 
-        public void SetCurrentScore()
+        public void SetCurrentScore(int score)
         {
-
+            CurrentScore = score; 
         }
 
-        public void SetLevelPerformace()
-        {
-
-        }
         public void SaveProgress()
         {
+            if (CurrentUser == null)
+                return;
 
+            if (CurrentScore > CurrentUser.levelScore[CurrentLevel])
+            {
+                CurrentUser.levelScore[CurrentLevel] = CurrentScore;
+            }  
+        }
+        
+        public void SetVolumeEffects(float volume)
+        {
+            VolumeEffects = Mathf.Clamp01(volume);
+            CurrentUser.Effects = VolumeEffects;
         }
 
-        public void SetVolumeEffects()
+        public void SetVolumeMusic(float volume)
         {
-
-        }
-
-        public void SetVolumeMusic()
-        {
-
+            VolumeMusic = Mathf.Clamp01(volume);
+            CurrentUser.Music = VolumeMusic;
         }
     }
 }

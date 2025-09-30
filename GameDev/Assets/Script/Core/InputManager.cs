@@ -1,18 +1,45 @@
 using System;
+using UnityEngine;
 
 // InputManager.cs
 /*
-Esse script será responsável por capturar e centralizar todos os inputs do jogador.
+Como um Singeton esse script será responsável por capturar e centralizar todos os inputs do jogador.
 Ele detectará as teclas de movimento, ações, pausa e a seleção das lixeiras.
 */
 
 
-
-public class InputManager : IInputManager 
+namespace BioAdventure.Assets.Script.Core
 {
-    event Action<float> onMove;
-    event Action onBoost;
-    event Action<char> onBinChange;
-    event Action onPause;
-    event Action onSubmit;
+    public class InputManager : MonoBehaviour, IInputManager
+    {
+
+        public static InputManager inputManager { get; private set; }
+
+        private void Awake()
+        {
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Destroy(this);
+            }
+        }
+
+
+
+
+
+
+
+
+
+        event Action<float> onMove;
+        event Action onBoost;
+        event Action<char> onBinChange;
+        event Action onPause;
+        event Action onSubmit;
+    }
 }

@@ -22,10 +22,6 @@ namespace BioAdventure.Assets.Script.Data // Novo namespace
         public float Effects;
 
         [Header("Progresso nos Níveis")]
-        public int Level1;
-        public int Level2;
-        public int Level3;
-        public int Level4;
-        public int Level5;
+        public List<int> levelScore = new List<int>();
     }
 }
