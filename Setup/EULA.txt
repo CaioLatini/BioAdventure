@@ -1,0 +1,15 @@
+ACORDO DE LICENÇA DE UTILIZADOR FINAL (EULA) PARA BioAdventure
+
+Este software é fornecido por Caio Latini, de StudiosLatinha.
+
+Ao instalar ou usar este software, você concorda em ficar vinculado aos termos desta Licença.
+
+1. CONCESSÃO DE LICENÇA. O utilizador final tem permissão para instalar e usar uma cópia deste software em qualquer computador para seu uso pessoal, não comercial.
+2. RESTRIÇÕES. O utilizador final não pode, sem autorização expressa:
+    a) Distribuir, alugar, arrendar ou sublicenciar o software.
+    b) Fazer engenharia reversa, descompilar ou desmontar o software.
+    c) Usar o software para fins comerciais ou de geração de lucro.
+3. SEM GARANTIAS. O software é fornecido "tal como está" (AS IS), sem garantias de qualquer tipo. O risco de usar o software é totalmente do utilizador.
+4. DIREITOS DE PROPRIEDADE. Todos os direitos, títulos e interesses relativos ao BioAdventure e qualquer cópia dele pertencem a StudiosLatinha.
+
+Copyright (C) 2025 StudiosLatinha. Todos os Direitos Reservados.

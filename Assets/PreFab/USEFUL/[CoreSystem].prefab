@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8574613302908566613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2992058600340531210}
+  - component: {fileID: 5415912870224886699}
+  - component: {fileID: 779370369789115152}
+  - component: {fileID: 6130877526269992074}
+  - component: {fileID: 1687574172117448706}
+  - component: {fileID: 5350415203617861705}
+  - component: {fileID: 6818718869373383594}
+  m_Layer: 0
+  m_Name: '[CoreSystem]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2992058600340531210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 559.1643, y: 357.015, z: 2.1458738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5415912870224886699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 148d6949bbeb02544a590251d5213b26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &779370369789115152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 515fe511e2c22d548aea2d0df585eed6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsMenuOpen: 0
+--- !u!114 &6130877526269992074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10776a1bddfc6e45928c6282032789b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1687574172117448706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1fccd59d31ce0499e391bc474e5dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5350415203617861705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380a44f859217d94a92c1a678242b9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClipList:
+  - {fileID: 8300000, guid: 7eca2e05ec41a5a468a438d18e4ada6a, type: 3}
+  - {fileID: 8300000, guid: 712972d9b0eab4741834f55714acd2d0, type: 3}
+  - {fileID: 8300000, guid: d3c3b2bf9e7446c46a84acd791d7ac74, type: 3}
+  - {fileID: 8300000, guid: 0b5e839348a4584419d239a8cea8da10, type: 3}
+  - {fileID: 8300000, guid: eed84b3d888cef042bc799867ff81b4b, type: 3}
+  - {fileID: 8300000, guid: a50fc4ec0d0d12a4c9aa178b44a6379e, type: 3}
+  - {fileID: 8300000, guid: ae9572c0d7ebed84eba95b6347835572, type: 3}
+  - {fileID: 8300000, guid: d78734c923cb11e4f86a6028b867c6ba, type: 3}
+  - {fileID: 8300000, guid: 30eb8e54307e4544693550e1cc271b6e, type: 3}
+  - {fileID: 8300000, guid: ae64c5d338c30ec4bbafc800613effb5, type: 3}
+  - {fileID: 8300000, guid: f1941765d424abd41bab13b63e095a8c, type: 3}
+  - {fileID: 8300000, guid: 05e858ec5bc995d49aa0390e01bfd224, type: 3}
+  - {fileID: 8300000, guid: 898cd21f0d61b1a42809db67a563700b, type: 3}
+  - {fileID: 8300000, guid: 3276afe92f3294b45b991e9d6af88ea5, type: 3}
+  - {fileID: 8300000, guid: d8f663b4c5e23424399068df8131fdc0, type: 3}
+  - {fileID: 8300000, guid: 80dde7a41d898124da94657611c6bb10, type: 3}
+  - {fileID: 8300000, guid: de48bb11eaeebbc409fa9f81d2fb45e1, type: 3}
+  - {fileID: 8300000, guid: 0eef1f9cb1edcd9458a6bd24572b3178, type: 3}
+  - {fileID: 8300000, guid: 7dfb0b28951e48b42865533ca148739c, type: 3}
+  - {fileID: 8300000, guid: d9d9e03056ae058428ac1edfbf051697, type: 3}
+  - {fileID: 8300000, guid: 26e34ce68cc3a3244a295191f456f3b0, type: 3}
+  - {fileID: 8300000, guid: 96bce93d56bcb1e4f96edbc4ec325f0b, type: 3}
+  - {fileID: 8300000, guid: 99f1e4420f2a18b4584129071109b7a1, type: 3}
+  - {fileID: 8300000, guid: bb5572a73523b7641ba257e8a51e6687, type: 3}
+--- !u!114 &6818718869373383594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8574613302908566613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79df8ace1b29a4b4d892d96380425a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allAchievementsDefs:
+  - id: 0
+    title: First Lose
+    description: First defeat
+    icon: {fileID: -4281013669898059457, guid: 626c600b00ca9a542bc197d872584769, type: 3}
+    isSecret: 0
+  - id: 1
+    title: First Win
+    description: First victory
+    icon: {fileID: -4059756015833786534, guid: 72e8b25ee56ca0845921d2c84c0ee051, type: 3}
+    isSecret: 0
+  - id: 2
+    title: Perfect
+    description: Win one level perfectly
+    icon: {fileID: -2368335795546604841, guid: effe2e0c8439f3b4f87e7636002ea769, type: 3}
+    isSecret: 0
+  - id: 3
+    title: Complete all levels
+    description: Complete all levels
+    icon: {fileID: -5398821699324327430, guid: f4cc53b664aa1c94ba71fc9e8ae22b92, type: 3}
+    isSecret: 0
+  - id: 5
+    title: What you doing?
+    description: Complete one level wrong all Bin Type
+    icon: {fileID: 1692327539947325266, guid: c7dd3bbf63ee6d247894259fcaae7fe2, type: 3}
+    isSecret: 1
+  - id: 4
+    title: No litter on the ground
+    description: Complete all levels without losing a life
+    icon: {fileID: -148288427605264848, guid: d329e8d6c2d12b04b80e3c3a0060559b, type: 3}
+    isSecret: 0

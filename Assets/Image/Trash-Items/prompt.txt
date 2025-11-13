@@ -1,0 +1,9 @@
+Gere um icone de material (material) (descrição).
+
+Estilo de desenho cartunesco.
+
+Fundo da imagem será cinza opaco sem variação de tom, cor solida.
+
+Em torno da imagem teremos um contorno na cor rgb (cor*)
+
+Em anexo uma imagem de referencia.
