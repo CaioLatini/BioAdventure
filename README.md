@@ -33,5 +33,14 @@ The game was designed to support awareness campaigns about proper waste disposal
 - Entirely in English.
 - Simple vocabulary, ideal for all ages and non-native speakers.
 
- [(Game Download)](https://github.com/CaioLatini/BioAdventure/blob/master/Setup/BioAdventure-setup.exe)
- <img width="1895" height="276" alt="image" src="https://github.com/user-attachments/assets/ed3c1e55-8c19-48e6-a8b1-1333ea1abe0b" />
+
+## [⬇️ Game Download Instructions](https://github.com/CaioLatini/BioAdventure/blob/master/Setup/BioAdventure-setup.exe)
+
+To download the game installer file, `BioAdventure-setup.exe`, please follow these steps:
+
+1.  **Click the File Link:** Click on the direct link below to navigate to the file's page on GitHub:
+    [BioAdventure-setup.exe](https://github.com/CaioLatini/BioAdventure/blob/master/Setup/BioAdventure-setup.exe)
+
+2.  **Initiate Download:** On the file viewing page, locate the button labeled "**Raw**" (or "**View raw**") on the right side of the main file panel.
+
+> Clicking the "**Raw**" button bypasses the GitHub file viewer and forces your browser to download the `BioAdventure-setup.exe` installer file directly to your computer.
