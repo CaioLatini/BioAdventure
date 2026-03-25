@@ -13,9 +13,30 @@ namespace BioAdventure.Assets.Script.Managers
 {
     public class SceneController : MonoBehaviour
     {
+        private string AuthSceneName;
+        private string MainMenuSceneName;
+        private string GameSceneName;
+        private string EndGameScene;
+        private string TutorialSceneName;
+
+
         public static SceneController Instance { get; private set; }
         private void Awake()
         {
+            #if UNITY_ANDROID  
+            AuthSceneName = "LoginScene - Mobile";
+            MainMenuSceneName = "MenuScene - Mobile";
+            GameSceneName = "GameScene - Mobile";
+            EndGameScene = "EndGameScene - Mobile";
+            TutorialSceneName = "TutorialScene - Mobile";
+            #else
+            AuthSceneName = "LoginScene";
+            MainMenuSceneName = "MenuScene";
+            GameSceneName = "GameScene";
+            EndGameScene = "EndGameScene";
+            TutorialSceneName = "TutorialScene";
+            #endif
+            
             if (Instance == null)
             {
                 Instance = this;
@@ -29,12 +50,6 @@ namespace BioAdventure.Assets.Script.Managers
             Debug.Log("SceneController Initialized");
         }
 
-        private const string AuthSceneName = "LoginScene";
-        private const string MainMenuSceneName = "MenuScene";
-        private const string GameSceneName = "GameScene";
-        private const string EndGameScene = "EndGameScene";
-        private const string TutorialSceneName = "TutorialScene";
-        
 
         public void GoToAuthScene()
         {

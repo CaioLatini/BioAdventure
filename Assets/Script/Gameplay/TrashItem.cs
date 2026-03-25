@@ -29,7 +29,7 @@ namespace BioAdventure.Assets.Script.Gameplay
 
         private float Rotation()
         {
-            int x = UnityEngine.Random.Range(0, 1);
+            int x = UnityEngine.Random.Range(0, 2);
             float y = UnityEngine.Random.Range(1, 3);
             return x > 0 ? -y : y;
         }

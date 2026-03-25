@@ -19,6 +19,8 @@ namespace BioAdventure.Assets.Script.UI
         [SerializeField] private GameObject conteinerBin;
         [SerializeField] private GameObject conteinerBinPage1;
         [SerializeField] private GameObject conteinerBinPage2;
+        [SerializeField] private GameObject buttonNextPage;
+        [SerializeField] private GameObject buttonBackPage;
 
 
         private bool _isPaused = false;
@@ -48,6 +50,11 @@ namespace BioAdventure.Assets.Script.UI
         {
             SoundManager.Instance.PlayEffect("click");
             InputManager.Instance.TriggerPause();
+        }
+        public void OnSubmitButtonPressed()
+        {
+            SoundManager.Instance.PlayEffect("click");
+            InputManager.Instance.TriggerSubmit();
         }
 
         public void OnMainMenuButtonPressed()
@@ -84,12 +91,18 @@ namespace BioAdventure.Assets.Script.UI
             {
                 SoundManager.Instance.PlayEffect("go");
 
+                buttonNextPage.SetActive(false);
+                buttonBackPage.SetActive(true);
+
                 conteinerBinPage1.SetActive(false);
                 conteinerBinPage2.SetActive(true);
             }
             else
             {
                 SoundManager.Instance.PlayEffect("back", 0.7f);
+
+                buttonNextPage.SetActive(true);
+                buttonBackPage.SetActive(false);
 
                 conteinerBinPage1.SetActive(true);
                 conteinerBinPage2.SetActive(false);

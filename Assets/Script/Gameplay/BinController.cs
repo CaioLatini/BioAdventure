@@ -19,8 +19,7 @@ public class BinController : MonoBehaviour
     [SerializeField] private GameObject binCaptcha;
 
     [Header("Movement")]
-    [SerializeField] private float _moveSpeed = 70f;
-    [SerializeField] private Vector2 _limitMap;
+    private float _moveSpeed;
 
     [Header("Boost")]
     [SerializeField] private float _boostAmount = 3f;
@@ -28,7 +27,7 @@ public class BinController : MonoBehaviour
 
     private bool _isBoosting = false;
 
-    
+
     private void OnEnable()
     {
         if (InputManager.Instance != null)
@@ -46,7 +45,10 @@ public class BinController : MonoBehaviour
             InputManager.Instance.onBoost -= HandleBoost;
         }
     }
-
+    private void Start()
+    {
+        _moveSpeed = GameManager.Instance.LimitMap.y * 0.85f;
+    }
     public void ChangeBinType(string trashtype)
     {
         switch (trashtype)
@@ -65,18 +67,28 @@ public class BinController : MonoBehaviour
 
     private void HandleMovement(float moveInput)
     {
-        if (transform.position.x <= _limitMap.x && moveInput < 0)
+        float left = GameManager.Instance.LimitMap.x;
+        float right = GameManager.Instance.LimitMap.y;
+
+        // Movimento normal
+        float newX = transform.position.x + moveInput * _moveSpeed * Time.deltaTime;
+
+        // Teleporte lateral (wrap)
+        if (newX < left)
         {
-            transform.position = new Vector3(_limitMap.y,transform.position.y, transform.position.z);
-        } if(transform.position.x >= _limitMap.y && moveInput > 0)
-        {
-            transform.position = new Vector3(_limitMap.x,transform.position.y, transform.position.z);
+            newX = right;
         }
-        transform.Translate(Vector3.right * moveInput * _moveSpeed * Time.deltaTime);
+        else if (newX > right)
+        {
+            newX = left;
+        }
+
+        transform.position = new Vector3(newX, transform.position.y, transform.position.z);
     }
 
+
     private void HandleBoost()
-    { 
+    {
         if (!_isBoosting)
         {
             StartCoroutine(BoostRoutine());
@@ -97,6 +109,4 @@ public class BinController : MonoBehaviour
         _isBoosting = false;
         _moveSpeed = originalSpeed;
     }
-
-    //Função para inverter a posição da lixeira quando quebrar o horizonte
 }

@@ -38,7 +38,7 @@ namespace BioAdventure.Assets.Script.UI
         [Header("Referências da UI for EndGame")]
         [SerializeField] private GameObject popupPanel;
         [SerializeField] private Image iconImage;
-        [SerializeField] private float displayDuration = 3f;
+        [SerializeField] private float displayDuration = 5.5f;
 
         private Queue<Achievement> achievementQueue = new Queue<Achievement>();
       

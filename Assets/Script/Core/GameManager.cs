@@ -19,6 +19,9 @@ namespace BioAdventure.Assets.Script.Core
         private TextData textaData = new TextData();
         public static GameManager Instance { get; private set; }
 
+        public Vector2 LimitMap;
+        public float HeightMap;
+
         void
         Awake()
         {
@@ -33,6 +36,24 @@ namespace BioAdventure.Assets.Script.Core
             }
 
             Debug.Log("GameManager Initialized");
+        }
+        private void Start()
+        {
+            CalculateScreenBoundaries();
+        }
+
+        private void CalculateScreenBoundaries()
+        {
+            HeightMap = Camera.main.orthographicSize;
+            float screenWidth = HeightMap * 2.0f * Camera.main.aspect;
+
+            float rightLimit = screenWidth / 2f;
+            float leftLimit = -rightLimit;
+
+            LimitMap = new Vector2(leftLimit, rightLimit);
+
+            Debug.Log($"Limites calculados: Esq {LimitMap.x} | Dir {LimitMap.y} | Altura {HeightMap}");
+            
         }
 
         //Global variables
@@ -60,12 +81,12 @@ namespace BioAdventure.Assets.Script.Core
                 return;
 
             CurrentUser.TutorialComplete = true;
-            
+
             if (CurrentScore > CurrentUser.levelScore[CurrentLevel])
             {
                 CurrentUser.levelScore[CurrentLevel] = CurrentScore;
             }
-            if( CurrentPerformace > CurrentUser.levelPerformace[CurrentLevel])
+            if (CurrentPerformace > CurrentUser.levelPerformace[CurrentLevel])
             {
                 CurrentUser.levelPerformace[CurrentLevel] = CurrentPerformace;
             }
@@ -98,7 +119,7 @@ namespace BioAdventure.Assets.Script.Core
         {
             CurrentScore = Score;
         }
-        
+
         public void SetCurrentPerformace(int Performace)
         {
             CurrentPerformace = Performace;

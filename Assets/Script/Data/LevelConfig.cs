@@ -29,4 +29,14 @@ namespace BioAdventure.Assets.Script.Data
         [Tooltip("Intervalo de gravidade(velocidade de queda) para o spawn de lixo. X = Mínimo, Y = Máximo.")]
         public Vector2 gravityInterval = new Vector2(2.5f, 7.0f);
     }
+    public class LevelConfigMobile : ScriptableObject
+    {
+        [Header("Regras do Nível")]
+
+        [Tooltip("Quantidade de lixo a ser gerado.")]
+        public int requiredCount;
+
+        [Tooltip("Intervalo de gravidade(velocidade de queda) para o spawn de lixo. X = Mínimo, Y = Máximo.")]
+        public Vector2 gravityInterval = new Vector2(2.5f, 7.0f);
+    }
 }

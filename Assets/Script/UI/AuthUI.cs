@@ -4,8 +4,6 @@ using TMPro;
 using BioAdventure.Assets.Script.Core;
 using BioAdventure.Assets.Script.Services;
 using BioAdventure.Assets.Script.Managers;
-using System.Linq.Expressions;
-using NUnit.Framework;
 
 // AuthUI.cs
 /*
@@ -22,6 +20,8 @@ namespace BioAdventure.Assets.Script.UI
         [SerializeField] private TMP_InputField usernameInput;
         [SerializeField] private TMP_Text statusText;
         [SerializeField] private UnityEngine.UI.Button loginButton;
+        [SerializeField] private GameObject SettingsButton;
+
 
         private AuthService _authService;
 

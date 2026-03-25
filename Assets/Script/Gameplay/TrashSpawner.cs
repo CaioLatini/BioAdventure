@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using BioAdventure.Assets.Script.Core;
 using UnityEngine;
 
 // TrashSpawner.cs
@@ -16,8 +17,8 @@ namespace BioAdventure.Assets.Script.Gameplay
         [Header("Trash Spawner area")]
         [SerializeField] private float _rengeY;
         [SerializeField] private float _rengeZ;
-        [SerializeField] private float _minRangeX;
-        [SerializeField] private float _maxRengeX;
+
+        [SerializeField] private float _offset = 0.95f;
 
         [Header("Trash Spawner Settings")]
         [SerializeField] private List<Sprite> _trashSprite;
@@ -39,9 +40,16 @@ namespace BioAdventure.Assets.Script.Gameplay
 
         private Vector3 RandomPosition()
         {
+            float left = GameManager.Instance.LimitMap.x*_offset;
+            float right = GameManager.Instance.LimitMap.y*_offset;
+            Debug.Log("Spawn Lixo entre " + left + " e " + right);
             return new Vector3(
-            UnityEngine.Random.Range(_minRangeX, _maxRengeX), _rengeY, _rengeZ);
+                UnityEngine.Random.Range(left, right),
+                _rengeY,
+                _rengeZ
+            );
         }
+
 
         private void SetSpriteAndTagTrash(int spriteIndex)
         {

@@ -28,15 +28,17 @@ namespace BioAdventure.Assets.Script.Gameplay
         [SerializeField] private GameObject _binPlayer;
         [SerializeField] private GameObject _binColection01;
         [SerializeField] private GameObject _binColection02;
-        
+
         [Header("Posições Chave")]
-        [SerializeField] private Vector3 spawnPos1 = new Vector3(-145, 350, 0);
-        [SerializeField] private Vector3 spawnPos2 = new Vector3(-260, 350, 0);
-        [SerializeField] private Vector3 spawnPos3 = new Vector3(-200, 350, 0);
-        [SerializeField] private float waitPosY = 320f;
-        [SerializeField] private float targetBinX1 = -145f;
-        [SerializeField] private float targetBinX2 = -260f;
-        [SerializeField] private float targetBinX3 = -200;
+        private float _limitMap;
+        private float _limitMapY;
+        [SerializeField] private Vector3 spawnPos1;
+        [SerializeField] private Vector3 spawnPos2;
+        [SerializeField] private Vector3 spawnPos3;
+        [SerializeField] private float waitPosY;
+        private float targetBinX1;
+        private float targetBinX2;
+        private float targetBinX3;
 
         // --- Flags de Controlo ---
         private bool _isWaitingForOk = false;
@@ -55,7 +57,19 @@ namespace BioAdventure.Assets.Script.Gameplay
 
         private void Start()
         {
+            _limitMap = GameManager.Instance.LimitMap.y;
+            _limitMapY = GameManager.Instance.HeightMap*1.25f;
+            waitPosY = GameManager.Instance.HeightMap*0.75f;
+
+            spawnPos1 = new Vector3(_limitMap*0.75f, _limitMapY, 0);
+            spawnPos2 = new Vector3(-_limitMap*0.75f, _limitMapY, 0);
+            spawnPos3 = new Vector3(0f, _limitMapY, 0);
+
+
             StartCoroutine(TutorialSequence());
+            targetBinX1 = spawnPos1.x;
+            targetBinX2 = spawnPos2.x;
+            targetBinX3 = spawnPos3.x;
         }
 
         private void OnEnable()
@@ -89,7 +103,7 @@ namespace BioAdventure.Assets.Script.Gameplay
             yield return ShowDialogueAndWait();
 
             binController.enabled = true; // Destrava a lixeira
-            yield return new WaitUntil(() => binController.transform.position.x >= targetBinX1); // Espera o jogador chegar
+            yield return new WaitUntil(() => IsBinAtPosition(targetBinX1)); // Espera o jogador chegar
 
             binController.enabled = false; // Trava a lixeira
             ReleaseCurrentTrash(); // Solta o lixo
@@ -98,26 +112,28 @@ namespace BioAdventure.Assets.Script.Gameplay
             _trashCollected = false; // Reseta a flag para a próxima etapa
 
             // --- ETAPA 2: BOOST ---
-            //(Dialogue 4)
-            yield return ShowDialogueAndWait();
 
-            yield return SpawnTrashAndWait(spawnPos2, waitPosY, true); // Spawna o segundo lixo
+                //(Dialogue 4)
+                yield return ShowDialogueAndWait();
 
-            //(Dialogue 5 a 7)
-            yield return ShowDialogueAndWait();
-            yield return ShowDialogueAndWait();
-            yield return ShowDialogueAndWait();
 
-            yield return new WaitUntil(() => _wasBoosted); // Espera o jogador pressionar espaço
+                yield return SpawnTrashAndWait(spawnPos2, waitPosY, true); // Spawna o segundo lixo
 
-            binController.enabled = true; // Destrava a lixeira
-            yield return new WaitUntil(() => binController.transform.position.x <= targetBinX2); // Espera o jogador chegar
+                //(Dialogue 5 a 7)
+                yield return ShowDialogueAndWait();
+                yield return ShowDialogueAndWait();
+                yield return ShowDialogueAndWait();
 
-            binController.enabled = false; // Trava a lixeira
-            ReleaseCurrentTrash(); // Solta o lixo
+                yield return new WaitUntil(() => _wasBoosted); // Espera o jogador pressionar espaço
 
-            yield return new WaitUntil(() => _trashCollected); // Espera a coleta
-            _trashCollected = false;
+                binController.enabled = true; // Destrava a lixeira
+                yield return new WaitUntil(() => IsBinAtPosition(targetBinX2)); // Espera o jogador chegar
+
+                binController.enabled = false; // Trava a lixeira
+                ReleaseCurrentTrash(); // Solta o lixo
+
+                yield return new WaitUntil(() => _trashCollected); // Espera a coleta
+                _trashCollected = false;
 
             // --- ETAPA 3: MENU RADIAL ---
             //(Dialogue 8)
@@ -125,18 +141,15 @@ namespace BioAdventure.Assets.Script.Gameplay
 
             binController.enabled = true;
             yield return SpawnTrashAndWait(spawnPos3, waitPosY, false); // Spawna o terceiro lixo, agora plastico
-            yield return new WaitUntil(() => binController.transform.position.x >= targetBinX3); // Espera o jogador chegar
+            yield return new WaitUntil(() => IsBinAtPosition(targetBinX3)); // Espera o jogador chegar
             binController.enabled = false;
-
-            dialoguePanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(-500, 300);
 
             //(Dialogue 9 a 12)
             yield return ShowDialogueAndWait();
             yield return ShowDialogueAndWait();
 
-            
+
             yield return ShowDialogueAndWait();
-            dialoguePanel.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 300);
 
             _binPlayer.SetActive(false);//Desativa a UI do player
             _binColection01.SetActive(true);//Ativa exibição da das leixeiras junto ao texto
@@ -152,7 +165,7 @@ namespace BioAdventure.Assets.Script.Gameplay
             radialMenuObject.SetActive(true); // Força a abertura do menu para demonstração
             yield return new WaitForSeconds(3f); // Deixa o jogador ver o menu aberto
             radialMenuObject.SetActive(false); // Força o fechamento
-            
+
             //(Dialogue 13 a 15)
             yield return ShowDialogueAndWait();
             yield return ShowDialogueAndWait();
@@ -164,7 +177,7 @@ namespace BioAdventure.Assets.Script.Gameplay
 
             ReleaseCurrentTrash();
             yield return new WaitUntil(() => _trashCollected);
-            
+
             //(Dialogue 16)
             yield return ShowDialogueAndWait();
             // --- FIM ---
@@ -179,7 +192,7 @@ namespace BioAdventure.Assets.Script.Gameplay
         private void OnOkPressed() { _isWaitingForOk = false; }
 
         // Chamado pelo InputManager quando o boost é usado em deu devido momento
-        private void OnBoostPressed() { if(_indexDialogue >= 5)_wasBoosted = true; }
+        private void OnBoostPressed() { if (_indexDialogue >= 5) _wasBoosted = true; }
 
         // Chamado pelo evento estático do TrashItem quando um lixo é coletado
         private void OnTrashCollected(bool wasCorrect, string type) { _trashCollected = true; }
@@ -192,7 +205,7 @@ namespace BioAdventure.Assets.Script.Gameplay
         {
             _currentTrashInstance = Instantiate((isPaper ? trashPrefabPaper : trashPrefabPlastic), spawnPos, Quaternion.identity);
             Rigidbody2D rb = _currentTrashInstance.GetComponent<Rigidbody2D>();
-            rb.gravityScale = 3; // Define a gravidade
+            rb.gravityScale = 0.4f; // Define a gravidade
 
             // Espera até que o lixo caia até a altura definida
             yield return new WaitUntil(() => _currentTrashInstance.transform.position.y <= waitY);
@@ -223,6 +236,12 @@ namespace BioAdventure.Assets.Script.Gameplay
             yield return new WaitUntil(() => !_isWaitingForOk);
 
             dialoguePanel.SetActive(false); // Esconde o painel
+        }
+
+        private bool IsBinAtPosition(float targetX)
+        {
+            float tolerance = 0.2f;
+            return Mathf.Abs(binController.transform.position.x - targetX) <= tolerance;
         }
 
 

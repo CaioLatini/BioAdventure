@@ -58,7 +58,7 @@ namespace BioAdventure.Assets.Script.UI // Coloque na pasta UI
 
             // Lógica de "MouseDown" (Abrir o menu)
             isMenuOpen = true;
-            Time.timeScale = 0.5f;
+            Time.timeScale = 0.25f;
             SoundManager.Instance.PlayEffect("slowSound", 0.6f);
             radialMenuContainer.transform.position = new Vector3(mousePosition.x, mousePosition.y, 0);
             radialMenuContainer.SetActive(isMenuOpen);

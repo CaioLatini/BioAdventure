@@ -15,4 +15,4 @@ MonoBehaviour:
   maxTrashTypes: 7
   requiredCount: 25
   spawnInterval: {x: 1.5, y: 2}
-  gravityInterval: {x: 4, y: 8}
+  gravityInterval: {x: 0.4, y: 0.8}
