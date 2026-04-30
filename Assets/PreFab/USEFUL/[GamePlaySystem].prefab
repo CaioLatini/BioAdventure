@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &640137466002014919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6312060468307367576}
+  - component: {fileID: 1052316773061653778}
+  - component: {fileID: 7328432974501713716}
+  m_Layer: 0
+  m_Name: '[GamePlaySystem]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6312060468307367576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640137466002014919}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 559.1643, y: 357.015, z: 2.1458738}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1052316773061653778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640137466002014919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ed383d83305494d8f837178491b225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelConfig:
+  - {fileID: 11400000, guid: a2bca030f17330f46bdf66152214e6ce, type: 2}
+  - {fileID: 11400000, guid: 7be9a2355e71f44469acc214c062defb, type: 2}
+  - {fileID: 11400000, guid: 3ef838d24b6128f428625336ef07fe0d, type: 2}
+  - {fileID: 11400000, guid: a79732b1110fca8458cff96f5140c9a9, type: 2}
+  - {fileID: 11400000, guid: 8b0d5936e64e58b4ab96c0ee213df4f1, type: 2}
+  trashSpawner: {fileID: 7328432974501713716}
+  binController: {fileID: 0}
+--- !u!114 &7328432974501713716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640137466002014919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52559b58499f0e8438c135674adc6967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rengeY: 350
+  _rengeZ: 0
+  _minRangeX: -280
+  _maxRengeX: -130
+  _trashSprite:
+  - {fileID: 3453719504732158105, guid: ba9c07fef5e86d4429c86e388f9b1962, type: 3}
+  - {fileID: -763303658068753288, guid: eba6eb95d8419f6469ed9c44b73a3b79, type: 3}
+  - {fileID: 7386220911909896747, guid: 6f7f71cd33a09914d8d1110897b77084, type: 3}
+  - {fileID: 8906111807042769831, guid: f3049011d86083a44a8fe08755bce2e1, type: 3}
+  - {fileID: -2447865756959766251, guid: d6a9dfd5966a8274a9be8198d4187c2c, type: 3}
+  - {fileID: 8884295058372010262, guid: aea4b149fedbb314fa53abdc814f837d, type: 3}
+  - {fileID: -7890217242268965983, guid: 484e9a833ac1bd14182b795c14520287, type: 3}
+  - {fileID: 5851089368246761968, guid: c4ce33dcc8df87443ab5b2b861c5b22c, type: 3}
+  - {fileID: -2926962450690409693, guid: a68f0fce3cc655042824e38e773777bc, type: 3}
+  - {fileID: -7252831953848795443, guid: 02c25ba9b8813064a9f3234231e67032, type: 3}
+  - {fileID: -7315978237785518725, guid: efe70bde214ee444fb9a4a0bbb033899, type: 3}
+  - {fileID: -6947645021861514, guid: 306d61a82fb61654daab4cbb3a58bb6e, type: 3}
+  - {fileID: 5678839637906573310, guid: 92646c197f32b554e952f13ccdd0a085, type: 3}
+  - {fileID: 972173292957739870, guid: cfaa308e627875d4386698e1f1bf2df5, type: 3}
+  - {fileID: 515283975619314516, guid: 6306802791aab0544a79682516c63871, type: 3}
+  - {fileID: 5206535109661365465, guid: 82da5795d4be4be43bf343be59dde58d, type: 3}
+  - {fileID: -3796314804420669446, guid: 3e053455ff264234b8cd3216340f2ee3, type: 3}
+  - {fileID: -4061114517262390011, guid: 2ee4cef857e3b634393e0ea61f828ddb, type: 3}
+  - {fileID: -5863268905104048833, guid: 9f7b6f0b4509c164d847bef1558546dc, type: 3}
+  - {fileID: -1839335191604593230, guid: dcf0c3d81942573438c107164cf71f1c, type: 3}
+  - {fileID: -1953069526142115488, guid: 6a9c860c64866da4fbb7fa9f27dead54, type: 3}
+  - {fileID: -7262996636466976947, guid: 94402728837b2d743b6df9e1e82f891d, type: 3}
+  - {fileID: 3131527961040366079, guid: 365f993666e78bd43b91031d1f881581, type: 3}
+  - {fileID: 6180534676595947083, guid: b9c43eca8e36b314d9923147de293d60, type: 3}
+  _trashGameObject: {fileID: 3981781284615890773, guid: 49777f29c8f48a642a388d6f69cd1153, type: 3}

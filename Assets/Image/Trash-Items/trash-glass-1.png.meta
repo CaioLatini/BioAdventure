@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 9d985a386db04784a98a22aff1101e31
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5691752373588999332
+    second: trash-glass-1_0
+  - first:
+      213: -4119055331727929510
+    second: trash-glass-1_1
+  - first:
+      213: 7731564107253081344
+    second: trash-glass-1_2
+  - first:
+      213: -4429311890580262584
+    second: trash-glass-1_3
+  - first:
+      213: 4323539975188174604
+    second: trash-glass-1_4
+  - first:
+      213: 4207968879782311484
+    second: trash-glass-1_5
+  - first:
+      213: 1969222188435873211
+    second: trash-glass-1_6
+  - first:
+      213: 4451701759228264151
+    second: trash-glass-1_7
+  - first:
+      213: 7181493326376044917
+    second: trash-glass-1_8
+  - first:
+      213: 4467001383350732561
+    second: trash-glass-1_9
+  - first:
+      213: 4015619601145289028
+    second: trash-glass-1_10
+  - first:
+      213: 3281176259030895662
+    second: trash-glass-1_11
+  - first:
+      213: 2779516712246518996
+    second: trash-glass-1_12
+  - first:
+      213: 8489406536678868014
+    second: trash-glass-1_13
+  - first:
+      213: -3750505478053028788
+    second: trash-glass-1_14
+  - first:
+      213: 3574324491548769385
+    second: trash-glass-1_15
+  - first:
+      213: 715874148186807790
+    second: trash-glass-1_16
+  - first:
+      213: -732658428945804841
+    second: trash-glass-1_17
+  - first:
+      213: 8509294800359235356
+    second: trash-glass-1_18
+  - first:
+      213: 4906862397385826703
+    second: trash-glass-1_19
+  - first:
+      213: 7406785025161951349
+    second: trash-glass-1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trash-glass-1_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53cdb65f55d201b0800000000000000
+      internalID: -5691752373588999332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: de648064555f2c04e83847e4f21bae3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trash-glass-1_0: -5691752373588999332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
