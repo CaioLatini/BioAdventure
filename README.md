@@ -4,31 +4,37 @@
 
 ## 🕹️ Gameplay
 
-- Trash falls from the sky.
-- You control the bins and must catch the trash with the correct one.
-- Switch between bins to match the trash type.
-- 8 types of trash and bins:
-  - Paper
-  - Plastic
-  - Glass
-  - Metal
-  - Organic
-  - Hospital (Medical Waste)
-  - Wood
-  - Radioactive
+Trash constantly falls from the sky, and you must act fast to manage the bins and collect it all before it contaminates the soil, always remembering that each type of waste has its correct recycling bin.
 
 ## 🎯 Target Audience
 
-**BioAdventure** is aimed at children and young people.
-
-The game was designed to support awareness campaigns about proper waste disposal, especially in school computer labs.
+BioAdventure targets everyone who enjoys a good challenge and wants to learn a little more about ecology and recycling in a fun way, of course.
 
 ## 🌱 Educational Purpose
 
-- Raise awareness about recycling and environmental care.
-- Promote correct trash sorting in a fun and interactive way.
+With this game, we will learn and memorize the four main recycling bins: paper - plastic - metal - glass.
 
 ## 🌐 Language
 
-- Entirely in English.
-- Simple vocabulary, ideal for all ages and non-native speakers.
+The game is available in English (en-us) and Portuguese (pt-br).
+
+# [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe) [(Game Download)](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe)
+  
+**BioAdventure** é um jogo casual e educativo em um formato arcade. Aqui você vai se deparar com diversos e desafiadores niveis enquanto aprende mais sobre conciencia ecologica e reciclagem.
+
+## 🕹️ Jogabilidade
+
+Lixo cai dos ceus a todo momento, você deve agir rapido para genrenciar as lixeiras e recolher todos eles antes que contaminem o solo, lembrando sempre que cada tipo de lixo tem sua lixeira de reciclagem correta.
+
+## 🎯 Publico alvo
+
+BioAdventure visa todos que gostam de um bom desafio e querem aprender um pouco mais sobre ecologia e recliclagem de forma divertida, claro. 
+
+
+## 🌱 Proposta educacional
+
+Com este jogo vamos conhecer e fixar as quatro principais lixeiras reciclaveis: papel - plastico - metal - vidro
+
+## 🌐 Linguagem
+
+O jogo está disponível em portgues(pt-br) e ingles(en-us)
