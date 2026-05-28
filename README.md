@@ -1,6 +1,6 @@
 # [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md) [(Game Download)](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md)
 
-**BioAdventure** is an educational desktop microgame featuring 5 quick, fun, and challenging levels. Players must catch falling trash using the correct bin. You can switch between different bins to collect the trash in the right category. It’s a simple yet powerful way to teach environmental responsibility.
+**BioAdventure** is a casual educational arcade game. Here, you will face diverse and challenging levels while learning more about ecological awareness and recycling.
 
 ## 🕹️ Gameplay
 
