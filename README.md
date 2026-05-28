@@ -2,7 +2,7 @@
   <video src="https://github.com/user-attachments/assets/7cdf3997-0b96-4d3f-bd6d-82b9489100c0" width="300" controls></video>
 </div>
 
-# [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe) [(Game Download)](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe)
+# [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md) [(Game Download)](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md)
 
 **BioAdventure** is an educational desktop microgame featuring 5 quick, fun, and challenging levels. Players must catch falling trash using the correct bin. You can switch between different bins to collect the trash in the right category. It’s a simple yet powerful way to teach environmental responsibility.
 
@@ -22,7 +22,7 @@ With this game, we will learn and memorize the four main recycling bins: paper -
 
 The game is available in English (en-us) and Portuguese (pt-br).
 
-# [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe) [(Baixar jogo)](https://github.com/CaioLatini/BioAdventure/blob/main/BioAdventureInstall.exe)
+# [♻️ BioAdventure](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md) [(Baixar jogo)](https://github.com/CaioLatini/BioAdventure/blob/MobileBranch/temporaryDownload.md)
   
 **BioAdventure** é um jogo casual e educativo em um formato arcade. Aqui você vai se deparar com diversos e desafiadores niveis enquanto aprende mais sobre conciencia ecologica e reciclagem.
 
