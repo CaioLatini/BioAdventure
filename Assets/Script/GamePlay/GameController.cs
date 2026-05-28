@@ -105,6 +105,8 @@ namespace BioAdventure.Assets.Script.Gameplay
         {
             if (!isGameRunning) return;
 
+            _gameUI.PulseBackGround();
+
             currentLives--;
             _gameUI.UpdateLives(currentLives);
 
@@ -161,7 +163,7 @@ namespace BioAdventure.Assets.Script.Gameplay
         private int CalculatePerformace(int score, int lives, int currentRequiredCount)
         {
             if(lives <= 0) return 0;
-            if (score == currentRequiredCount * 2 && lives == 3) //perfeito
+            if (score >= currentRequiredCount * 2 && lives == 3) //perfeito
             {
                 return 4;
             }

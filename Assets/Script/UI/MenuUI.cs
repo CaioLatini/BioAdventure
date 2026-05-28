@@ -25,6 +25,9 @@ namespace BioAdventure.Assets.Script.UI
         [Tooltip("Texto que exibe o recorde do nível selecionado.")]
         [SerializeField] private TMP_Text bestScoreText;
 
+        [Tooltip("Texto que informa o nível selecionado.")]
+        [SerializeField] private TextMeshProUGUI _level;
+
         [Tooltip("Imagem de fundo principal do menu.")]
         [SerializeField] private Image backgroundImage;
 
@@ -59,6 +62,7 @@ namespace BioAdventure.Assets.Script.UI
             
 
             int currentLevel = GameManager.Instance.CurrentLevel;
+            _level.text = (currentLevel+1).ToString();
             bool isUnlocked = GameManager.Instance.UnlockedLevel(currentLevel);
 
             Debug.LogWarning("Reload CurrentLevel");

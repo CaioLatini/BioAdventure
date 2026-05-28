@@ -16,14 +16,14 @@ namespace BioAdventure.Assets.Script.Data
     [Serializable]
     public class UserSave
     {
-        public string UserName;
+        public string UserName = "Player";
         public List<int> levelScore = new List<int>();
         public List<int> levelPerformace = new List<int>();
         public List<AchievementID> unLockedAchievements = new List<AchievementID>();
 
         public bool Lenguage = false; //false = en-us true= pt-br
-        public bool TutMoveComplete;
-        public bool TutCaptureComplete;
-        public bool TutMenuComplete;
+        public bool TutMoveComplete = false;
+        public bool TutCaptureComplete = false;
+        public bool TutMenuComplete = false;
     }
 }

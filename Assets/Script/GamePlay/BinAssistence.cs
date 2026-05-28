@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 using BioAdventure.Assets.Script.Managers;
+using UnityEngine.UI;
 
 // BinAssistence.cs
 /*
@@ -16,11 +17,11 @@ namespace BioAdventure.Assets.Script.Gameplay
     {
         [Header("Configuração de Spots Fixos (A, B, C, D)")]
         [Tooltip("As posições âncoras principais onde as lixeiras descansam.")]
-        public RectTransform[] Spot; 
-        
+        public RectTransform[] Spot;
+
         [Tooltip("Os objetos detetores (hitboxes invisíveis) que ficam por trás dos Spots.")]
         public GameObject[] SpotDetected;
-        
+
         [Tooltip("Indicadores visuais (ex: contorno brilhante) para mostrar onde a lixeira vai encaixar.")]
         public GameObject[] dropIndicators;
 
@@ -30,7 +31,7 @@ namespace BioAdventure.Assets.Script.Gameplay
 
         [Header("Lista Dinâmica de Lixeiras")]
         [Tooltip("A lista contendo as 4 lixeiras. A ordem desta lista define as posições reais delas no ecrã.")]
-        [SerializeField] private List<RectTransform> Bins = new List<RectTransform>(); 
+        [SerializeField] private List<RectTransform> Bins = new List<RectTransform>();
 
         private void Start()
         {
@@ -84,7 +85,7 @@ namespace BioAdventure.Assets.Script.Gameplay
             if (SoundManager.Instance != null) SoundManager.Instance.PlayEffect("go", 0.8f);
 
             Bins.Remove(draggedItem);
-            
+
             // Segurança: Garante que o novo índice não seja maior do que o tamanho da lista após a remoção
             newIndex = Mathf.Clamp(newIndex, 0, Bins.Count);
             Bins.Insert(newIndex, draggedItem);
@@ -112,6 +113,26 @@ namespace BioAdventure.Assets.Script.Gameplay
             if (index != -1 && index < dropIndicators.Length && dropIndicators[index] != null)
             {
                 dropIndicators[index].SetActive(true);
+            }
+        }
+
+        public void DesableRayCast(GameObject currentBin)
+        {
+            for (int i = 0; i < Bins.Count; i++)
+            {
+                if (Bins[i].gameObject != currentBin)
+                {
+                    Image image = Bins[i].gameObject.GetComponent<Image>();
+                    if (image != null) image.raycastTarget = false;
+                }
+            }
+        }
+        public void EnableRayCast()
+        {
+            for (int i = 0; i < Bins.Count; i++)
+            {
+                Image image = Bins[i].gameObject.GetComponent<Image>();
+                if (image != null) image.raycastTarget = true;
             }
         }
     }

@@ -22,6 +22,7 @@ namespace BioAdventure.Assets.Script.Data
         public void StartTutorial()
         {
             TextAsset tutorialAsset = Resources.Load<TextAsset>("TextTutorial");
+            Debug.Log("Arquivo TutorialString encontrado!");
 
             if (tutorialAsset != null)
             {

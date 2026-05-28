@@ -56,12 +56,9 @@ namespace BioAdventure.Assets.Script.Gameplay
         {
             while (_isLevelActive)
             {
-                float temp = UnityEngine.Random.Range(currentLevel.spawnInterval[0], currentLevel.spawnInterval[1]);
-                Debug.Log("Geração em... "+ temp);
-                
-                _trashSpawner.SpawTrash(4, currentLevel.gravityInterval, currentLevel.HardSpot, currentLevel.DobleTrash, currentLevel.OddDouble);
-                if(!GameManager.Instance.CurrentUser.TutCaptureComplete) yield return new WaitForSeconds(temp+2);
-                yield return new WaitForSeconds(temp);
+                _trashSpawner.SpawTrash(currentLevel.gravity, currentLevel.HardSpot, currentLevel.DobleTrash, currentLevel.OddDouble);
+                if(!GameManager.Instance.CurrentUser.TutCaptureComplete) yield return new WaitForSeconds(currentLevel.spawnTemp+2);
+                yield return new WaitForSeconds(currentLevel.spawnTemp);
             }
         }
 

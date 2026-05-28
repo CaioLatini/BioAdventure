@@ -26,12 +26,9 @@ namespace BioAdventure.Assets.Script.Gameplay
         [SerializeField] private TutorialController _tutorialCOntroller;
 
 
-        public void SpawTrash(int maxTrashType, Vector2 gravity, bool spotAdvanced = false, bool dobleTrash = false, int OddDouble = 0)
+        public void SpawTrash(float gravity, bool spotAdvanced = false, bool dobleTrash = false, int OddDouble = 0)
         {
-            //posição de comparação para tutorial
-            float position = 0f;
-
-            if (_trashSprite == null || _trashSprite.Count == 0 || maxTrashType <= 0)
+            if (_trashSprite == null || _trashSprite.Count == 0)
             {
                 Debug.LogWarning("TrashSpawner: No trash prefabs assigned or invalid maxTrashType.");
                 return;
@@ -51,16 +48,17 @@ namespace BioAdventure.Assets.Script.Gameplay
                 newTrash1 = Instantiate(_trashGameObject, spawPos1, Quaternion.identity);
                 newTrash2 = Instantiate(_trashGameObject, spawPos2, Quaternion.identity);
 
-                num1 = UnityEngine.Random.Range(0, maxTrashType);
-                do { num2 = UnityEngine.Random.Range(0, maxTrashType); }
-                while (num1 == num2);
+                num1 = UnityEngine.Random.Range(0, 3);
+                do{num2 = UnityEngine.Random.Range(0, 3);}
+                while(num1 == num2);
 
+                Debug.LogWarning("Num1 é:"+num1+ "num2 é: "+num2);
             }
             else if (ReturnPostion is Vector3 posV3)
             {
                 Vector3 spawPos = posV3;
                 newTrash1 = Instantiate(_trashGameObject, spawPos, Quaternion.identity);
-                num1 = UnityEngine.Random.Range(0, Math.Min(maxTrashType * 3, _trashSprite.Count));
+                num1 = UnityEngine.Random.Range(0, _trashSprite.Count);
             }
             else
             {
@@ -68,13 +66,12 @@ namespace BioAdventure.Assets.Script.Gameplay
                 return;
             }
 
-            float randomGravity = UnityEngine.Random.Range(gravity.x, gravity.y);
-
-            ApplySettings(newTrash1, num1, randomGravity);
+            
             if (newTrash2 != null)
             {
-                ApplySettings(newTrash2, num2*3, randomGravity);
-            }
+                ApplySettings(newTrash1, num1*3, gravity);
+                ApplySettings(newTrash2, num2*3, gravity);
+            } else ApplySettings(newTrash1, num1, gravity);
 
             if(!GameManager.Instance.CurrentUser.TutCaptureComplete)
             {

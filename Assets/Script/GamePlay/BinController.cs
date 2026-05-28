@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using BioAdventure.Assets.Script.Managers;
 using BioAdventure.Assets.Script.Core;
+using System;
 
 
 namespace BioAdventure.Assets.Script.Gameplay
@@ -14,6 +15,7 @@ namespace BioAdventure.Assets.Script.Gameplay
         [Tooltip("Referência ao gerenciador que controla os Spots fixos e temporários.")]
         [SerializeField] private BinAssistence _assistence;
         [SerializeField] private TutorialController _tutorialController;
+        [SerializeField] private Animator _captureAnimation;
 
         private RectTransform _rectTransform;
         private Canvas _canvas;
@@ -29,11 +31,29 @@ namespace BioAdventure.Assets.Script.Gameplay
             _image = GetComponent<Image>();
         }
 
+        private void OnEnable()
+        {
+            TrashItem.OnCollected += TrashCollected;
+        }
+
+        private void OnDisable()
+        {
+            TrashItem.OnCollected -= TrashCollected;
+        }
+
         private void Start()
         {
             _originalColor = _image.color;
             _dragColor = _originalColor;
             _dragColor.a = 0.5f; // Fica semi-transparente durante o arraste
+        }
+
+        private void TrashCollected(bool wasCorrect, string currentTag)
+        { 
+            if (wasCorrect && gameObject.tag == currentTag)
+            {
+                _captureAnimation.Play("FireWork" + currentTag, -1, 0f);
+            }
         }
 
         public void OnBeginDrag(PointerEventData eventData)
@@ -55,6 +75,7 @@ namespace BioAdventure.Assets.Script.Gameplay
         private bool _onTut = false;
         public void OnDrag(PointerEventData eventData)
         {
+            _assistence.DesableRayCast(gameObject);
             _rectTransform.anchoredPosition += eventData.delta / _canvas.scaleFactor;
 
             GameObject hitObject = eventData.pointerCurrentRaycast.gameObject;
@@ -70,6 +91,7 @@ namespace BioAdventure.Assets.Script.Gameplay
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            _assistence.EnableRayCast();
             GameObject hitObject = eventData.pointerCurrentRaycast.gameObject;
 
             int newIndex = -1;

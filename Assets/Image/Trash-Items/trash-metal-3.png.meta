@@ -129,10 +129,10 @@ TextureImporter:
       name: trash-metal-3_0
       rect:
         serializedVersion: 2
-        x: 120
-        y: 120
-        width: 800
-        height: 800
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

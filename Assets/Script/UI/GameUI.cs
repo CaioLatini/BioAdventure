@@ -24,7 +24,6 @@ namespace BioAdventure.Assets.Script.UI
         [SerializeField] private TMP_Text scoreText;
         [Tooltip("Imagem de backGround em game.")]
         [SerializeField] private Image gameplayBackground;
-        
         [Tooltip("Lista de ícones que representam as vidas.")]
         [SerializeField] private List<GameObject> livesDisplay;
 
@@ -37,8 +36,8 @@ namespace BioAdventure.Assets.Script.UI
         [Tooltip("Painel que exibe uma curiosidade (InfoString) após a fase.")]
         [SerializeField] private GameObject infoDisplay;
         [SerializeField] private TMP_Text infoText;
-    
-        
+
+
         private TextData textData = new TextData();
         private bool _isWaitingForOk = false;
 
@@ -72,7 +71,7 @@ namespace BioAdventure.Assets.Script.UI
             if (countdownText != null) countdownText.text = countdownValue;
         }
 
-        
+
         public void ShowCountdown()
         {
             if (countdownPanel != null) countdownPanel.SetActive(true);
@@ -92,16 +91,17 @@ namespace BioAdventure.Assets.Script.UI
 
                 infoDisplay.SetActive(true);
                 int index = Random.Range(0, 9);
-                
-                if(!GameManager.Instance.CurrentUser.Lenguage)
+
+                if (!GameManager.Instance.CurrentUser.Lenguage)
                 {
                     infoText.text = textData.infoStringPT[index];
-                } else infoText.text = textData.infoStringEN[index];
+                }
+                else infoText.text = textData.infoStringEN[index];
 
-                Debug.Log("Informativo definido: "+ infoText.text);
+                Debug.Log("Informativo definido: " + infoText.text);
                 _isWaitingForOk = true;
                 yield return new WaitUntil(() => !_isWaitingForOk);
-                
+
                 Debug.Log("Ocultando informativo");
                 infoDisplay.SetActive(false);
             }
@@ -120,17 +120,22 @@ namespace BioAdventure.Assets.Script.UI
             yield return new WaitUntil(() => !_isWaitingForOk);
 
             _isWaitingForOk = true;
-            infoText.text = textData.tutString[index+2];
+            infoText.text = textData.tutString[index + 2];
             yield return new WaitUntil(() => !_isWaitingForOk);
 
             infoDisplay.SetActive(false);
         }
 
         // Vincular esta função ao evento OnClick do botão "OK" no painel de Info
-        public void OnInfoOkButtonPressed() 
-        { 
+        public void OnInfoOkButtonPressed()
+        {
             if (SoundManager.Instance != null) SoundManager.Instance.PlayEffect("click");
-            _isWaitingForOk = false; 
+            _isWaitingForOk = false;
+        }
+
+        public void PulseBackGround()
+        {
+            gameplayBackground.gameObject.GetComponent<Animator>().Play("PulseError", -1, 0f);
         }
     }
 }

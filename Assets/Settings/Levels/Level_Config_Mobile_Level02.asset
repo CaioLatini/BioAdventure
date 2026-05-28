@@ -11,10 +11,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e34f8750e628074186e4d6fcd9d4410, type: 3}
   m_Name: Level_Config_Mobile_Level02
-  m_EditorClassIdentifier: 
-  requiredCount: 20
-  spawnInterval: {x: 2, y: 2.5}
-  gravityInterval: {x: 0.1, y: 0.25}
+  m_EditorClassIdentifier: Assembly-CSharp::BioAdventure.Assets.Script.Data.LevelConfig
+  requiredCount: 15
+  spawnTemp: 2
+  gravity: 0.15
   HardSpot: 0
   DobleTrash: 0
   OddDouble: 0
